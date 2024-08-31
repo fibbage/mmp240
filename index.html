@@ -1,0 +1,136 @@
+<html>
+<head>
+    <title>MMP240</title>
+</head>
+<body>
+    <style>
+        ::selection {
+            color:white;
+            background:#c31d4c
+        }
+        #parent {
+        display: relative;
+        width: 600px;
+        background: white;
+        float: clear;
+        margin: auto;
+        }
+        
+        #one {
+        float: left;
+        width: 45%;
+        padding: 14px;
+        }
+        
+        #two {
+        float: right;
+        width: 45%;
+        padding: 14px;
+        margin-right: -15px;
+        
+        } 
+        img:hover {
+        cursor:crosshair;
+        }
+        #rotate {
+        overflow: hidden;
+        display: inline-block;
+        border: 4px #001484 double;
+ 
+        }
+ 
+        #rotate img {
+        transition: transform .5s;
+        }
+ 
+        #rotate:hover img {
+        transform: scale(1.25) rotate(10deg);
+        transform-origin: 50% 50%;
+        webkit-filter: blur(.5px);
+        filter: blur(.5px);
+ 
+        }
+        a:link {
+        text-decoration: none; 
+        color:black;
+        }
+        a:hover {
+        cursor:help;
+        transition: .4s;
+        letter-spacing: 1.5px;
+        color:#c31d4c;
+        font-weight: bold;
+        }
+        </style>
+        <div id="parent">
+        <div id="one"><div id="rotate"><img src="https://interoteme.crd.co/assets/images/image02.jpg?v=72a649a6" width="300" height="300"></img></div></div>
+        <div id="two"><p><span style="font-size:2.7em; font-weight:bolder; -webkit-text-stroke: 1.5px #001484; color: #c31d4c;">REAGAN</span><br>
+                <em>Digital marketing</em> major who likes to draw. Fan of <b>Borderlands</b> and video games of the like. Art here is my own! I listen to Depeche Mode and The Presets.
+                <br><br>
+                <b>email me?</b> rtvalentine26@gmail.com<br>
+                katya.perez52@stu.bmcc.cuny.edu
+            </p>
+            <script type="text/javascript" src="https://static.tumblr.com/3ikgvxs/0TGl4zgpu/jquery.min.js"></script>
+            <script type="text/javascript">
+            $(document).ready(function() {
+            $(".links_body").hide();
+            $(".links_head").click(function() {
+            $(this).next(".links_body").slideToggle('active');
+            });
+            });
+            </script>
+            <style type="text/css">
+            
+            .links_list {
+            margin: 0px;
+            padding: 0px;
+            }
+            
+            .links_head {
+            padding-top: 2px;
+            padding-bottom: 0px;
+            position: relative;
+            margin: 0px;
+            text-align: left;
+            font-weight: bold;
+            color: #001484;
+            font-size: 1.5em;
+            display:inline; 
+            width: 150px;
+            box-shadow: inset 0 0 0 0 #FFABD9; 
+            overflow: visible; 
+            -webkit-transition: all ease 0.5s; 
+            -moz-transition: all ease 0.5s; transition: all ease 0.5s;
+            
+            }
+            .links_head:hover {
+            box-shadow: inset 0 50px 0 0 #c31d4c; 
+            color:white;
+            }
+
+            .links_body {
+            border: #001484 1.5px solid;
+            padding: 5px;
+            text-align: left;
+            display: none;
+            font-size: 1em; overflow-y:scroll; height: 50px;
+            }
+            }
+            </style>
+            <body>
+            <div class="links_list">
+            <p class="links_head">
+            <i data-feather="menu">
+            </i>class excercises</span></p>
+            <div class="links_body">
+            <p><a href="exercise2.html">excercise 2.</a><br>
+            excercise 3.<br>
+            excercise 4.<br>
+            excercise 5.<br>
+            excercise 6.<br>
+            excercise 7.<br>
+            excercise 8.</p>
+            </div>
+            </div>
+            </body></div></div>
+</body>
